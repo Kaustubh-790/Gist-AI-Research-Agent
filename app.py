@@ -334,7 +334,7 @@ with st.sidebar:
 
 if not st.session_state.research_started:
     
-    st.markdown('<div class="main-header">Welcome to the Gist!</div>', unsafe_allow_html=True)
+    st.markdown('<div class="main-header">Welcome to Gist!</div>', unsafe_allow_html=True)
     st.markdown('<div class="sub-header">Enter your research topic below to begin.</div>', unsafe_allow_html=True)
     
   
