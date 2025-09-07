@@ -7,7 +7,7 @@
   </a>
 </p>
 
-The **AI Research Agent** is a smart assistant that helps users **gather, summarize, and synthesize information** on any topic by automatically searching the web, extracting key insights, and citing reputable sources.
+**GIST** is a smart assistant that helps users **gather, summarize, and synthesize information** on any topic by automatically searching the web, extracting key insights, and citing reputable sources.
 
 It acts like a personal researcher — doing the heavy lifting of reading articles, pulling facts, and generating clean summaries — ideal for **students, professionals, writers, and curious minds**.
 
@@ -86,12 +86,11 @@ This project combines a powerful set of tools to deliver a seamless research exp
 4. **AI Analysis**: Generates structured insights including key points, trends, and different viewpoints
 5. **Citation Generation**: Creates properly formatted citations in multiple academic styles
 
-### 🎛️ **Customization Options**
+### 🎛️ **kay Customization Options**
 
 - ⏳ **Time-Filtered Search**: Narrow results to the last week, month, or year
 - 🎭 **Tone Selector**: Adjust the summary's tone (Academic, Casual, Professional, Creative)
 - 📊 **Source Count**: Control the number of sources to analyze (1-20)
-- 📝 **Analysis Types**: Choose between comprehensive, summary-focused, trend, or viewpoint analysis
 
 ### 🔧 **Technical Features**
 
@@ -114,7 +113,7 @@ cd Gist-AI-Research-Agent
 # Add API KEYS
 GOOGLE_API_KEY="YOUR_GEMINI_API_KEY"
 GOOGLE_SEARCH_KEY="YOUR_GOOGLE_SEARCH_KEY"
-GOOGLE_SEARCH_ENGINE_ID="YOUR_GOOGLE_SEARCH_KEY"
+GOOGLE_SEARCH_ENGINE_ID="YOUR_GOOGLE_SEARCH_ENGINE_ID"
 ```
 
 ```bash
@@ -125,7 +124,11 @@ venv\Scripts\activate      # (Windows)
 ```
 
 ```bash
-
 # Install dependencies
 pip install -r requirements.txt
+```
+
+```bash
+# Start the application 
+streamlit run app.py
 ```
