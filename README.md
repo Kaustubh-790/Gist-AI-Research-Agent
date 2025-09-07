@@ -86,7 +86,7 @@ This project combines a powerful set of tools to deliver a seamless research exp
 4. **AI Analysis**: Generates structured insights including key points, trends, and different viewpoints
 5. **Citation Generation**: Creates properly formatted citations in multiple academic styles
 
-### 🎛️ **kay Customization Options**
+### 🎛️ **Key Customization Options**
 
 - ⏳ **Time-Filtered Search**: Narrow results to the last week, month, or year
 - 🎭 **Tone Selector**: Adjust the summary's tone (Academic, Casual, Professional, Creative)
